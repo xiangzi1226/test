@@ -1,0 +1,54 @@
+<div id="luntan" class="luntan" ng-controller="luntan">
+	<header class="header" id="header">
+		<span class="sp1 border" id="sp1">精选</span>
+		<span class="sp2" id="sp2">论坛</span>
+		<i class="iconfont icon"></i>
+	</header>
+	<div class="lun-box">
+	<div id="position" class="position">
+		<div id="left" class="left">
+			<section class="banner" id="banner"><img src="img/banner.jpg" alt="" /></section>
+			<section class="nav-title" >
+				<div id="title" class="title">
+					<span>精选推荐</span>
+					<i class="iconfont icon">全部</i>
+				</div>
+				<ul>
+					<li ng-repeat="x in titles">{{x.title1}}</li>
+					<li ng-repeat="x in titles">{{x.title2}}</li>
+					<li ng-repeat="x in titles">{{x.title3}}</li>
+					<li ng-repeat="x in titles">{{x.title4}}</li>
+					<li ng-repeat="x in titles">{{x.title5}}</li>
+					<li ng-repeat="x in titles">{{x.title6}}</li>
+					<li ng-repeat="x in titles">{{x.title7}}</li>
+					<li ng-repeat="x in titles">{{x.title8}}</li>
+				</ul>
+			</section>
+			<section class="blank"></section>
+			<section class="times">
+				<i class="iconfont icon1"></i>
+				<span class="sp1">24小时热帖</span>
+				<i class="iconfont icon2"></i>
+			</section>
+			<section class="blank"></section>
+			<section class="list">
+				<ul>
+					<li ng-repeat="x in list">
+						<div class="top">
+							<span>{{x.bigtitle}}</span>
+							<img src="{{x.img}}" alt="" />
+						</div>
+						<div class="bottom">
+							<span class="sp1">{{x.season}}</span>
+							<span class="sp2">{{x.num}}</span>
+						</div>
+					</li>
+				</ul>
+			</section>
+			</div>
+			<div class="right" id="right">
+				论坛内容
+			</div>
+		</div>
+	</div>
+</div>

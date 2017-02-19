@@ -1,0 +1,38 @@
+[
+	{
+		
+		"img":"img/car1.jpg",
+		"car":"驭胜S330",
+		"price":"￥99"	
+	},
+	{
+		
+		"img":"img/car2.jpg",
+		"car":"宝骏560",
+		"price":"￥99"		
+	},
+	{
+		
+		"img":"img/car3.jpg",
+		"car":"大众 速腾",
+		"price":"￥99"	
+	},
+		{
+		
+		"img":"img/car1.jpg",
+		"car":"丰田美凯瑞",
+		"price":"￥99"	
+	},
+	{
+		
+		"img":"img/car1.jpg",
+		"car":"一汽-大众宝来",
+		"price":"￥99"	
+	},
+	{
+		
+		"img":"img/car1.jpg",
+		"car":"别克英朗",
+		"price":"￥99"		
+	}			
+]

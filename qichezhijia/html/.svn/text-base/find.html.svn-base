@@ -1,0 +1,156 @@
+
+		<div class="find_wrap" ng-controller="findCtr">
+			<header>
+				发现
+				<div class="find_search iconfont">&#xe686;</div>
+			</header>
+			<section class="find_mian">				
+			<div class="find_banner swiper-container">
+				 <div class="swiper-wrapper fb_wrap">
+		            <div class="swiper-slide" ng-repeat="x in data"  bn-directive>
+		            	<img src="{{x.img}}" alt="" />
+		            </div>
+		          	       
+		        </div>
+		         <div class="swiper-pagination" id="find_line"></div>
+			</div>
+			<div class="nav">
+				<ul>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span><span>汽车音频</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>车商城</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>分期购车</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>养车之家</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>找二手车</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>违章查询</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>购车计算</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>团购活动</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>购车节</span></li>
+					<li><span><img src="img/find_nav1.jpg" alt="" /></span></span><span>全部</span></li>
+				</ul>
+			</div>
+			<div class="kongbai"></div>
+			<div class="panic">
+				<h3>双11抢购</h3>
+			<div class="pan_wrap">
+				<div class="pic_wrap" ng-repeat="x in data1">
+					<img src="{{x.img}}" alt="" />
+					<p class="car_name">{{x.car}}</p>
+					<p class="car_price">{{x.price}}</p>
+				</div>
+				
+			</div>
+			
+			</div>
+			<div class="kongbai"></div>
+			<div class="gift">
+				<img src="img/find_gift.jpg" alt="" />
+			</div>
+			<div class="kongbai"></div>
+			<div class="find_time">
+				<div class="flash_sale">
+					<h3>限时抢购</h3>
+					<div class="count_down">
+						
+					</div>
+				</div>
+				<div class="pan_wrap">
+				<div class="pic_wrap" ng-repeat="x in data2">
+					<img src="{{x.img}}" alt="" />
+					<p class="car_name">{{x.title}}</p>
+					<p class="car_price">{{x.price}}</p>
+				</div>
+				
+				</div>
+			</div>
+			<div class="kongbai"></div>
+			<div class="find_service">
+				<h3>服务专区</h3>
+				<div class="module_wrap">
+					<div class="module">
+						<h2>加油卡充值</h2>
+						<p>大额充值享9.9折</p>
+						<div class="mo_pic">
+							<img src="img/find_service1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="module">
+						<h2>加油卡充值</h2>
+						<p>大额充值享9.9折</p>
+						<div class="mo_pic">
+							<img src="img/find_service1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="module">
+						<h2>加油卡充值</h2>
+						<p>大额充值享9.9折</p>
+						<div class="mo_pic">
+							<img src="img/find_service1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="module">
+						<h2>加油卡充值</h2>
+						<p>大额充值享9.9折</p>
+						<div class="mo_pic">
+							<img src="img/find_service1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="module">
+						<h2>加油卡充值</h2>
+						<p>大额充值享9.9折</p>
+						<div class="mo_pic">
+							<img src="img/find_service1.jpg" alt="" />
+						</div>
+					</div>
+					<div class="module">
+						<h2>加油卡充值</h2>
+						<p>大额充值享9.9折</p>
+						<div class="mo_pic">
+							<img src="img/find_service1.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="kongbai"></div>
+			<div class="gift">
+				<img src="img/find_gift.jpg" alt="" />
+			</div>
+			<div class="kongbai"></div>
+			<div class="overflow">
+				<h2>11.11超值购</h2>
+				<div class="pic_wrap" ng-repeat="x in data3">
+					<div class="pic">
+						<img src="{{x.img}}" alt="" />
+					</div>
+					<div class="font_wrap">
+						<h3>{{x.title}}</h3>
+						<p>{{x.inner}}</p>
+						
+					</div>
+					<div>
+						<span class="now">{{x.now}}</span>
+						<span class="old">{{x.old}}</span>
+					</div>
+				</div>
+				
+			</div>
+			<div class="kongbai"></div>
+			<div class="find_list">
+				<h3>商品列表</h3>
+				<div class="list_mod" ng-repeat="x in data4">
+					<div class="list_left">
+						<img src="{{x.img}}"/>
+					</div>
+					<div class="list_right">
+						<h2>{{x.titel}}</h2>
+						<p>{{x.lixi}}</p>
+						<div class="price">
+							<div class="now">{{x.now}}</div>
+							<div class="old">{{x.old}}</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			</section>
+			<footer></footer>
+		</div>
+

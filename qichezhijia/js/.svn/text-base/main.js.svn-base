@@ -1,0 +1,61 @@
+//李迎宾的js文件
+app.controller('main_app',function($scope,$http){
+	var index1=0;
+$('.main_box').on('swipeLeft',function(){
+	index1--;
+	if(index1<=-6){
+	index1=-6;
+	}
+	$('.main_box .out').animate({left:12.42*index1+'rem'})
+	$('#navhead li').eq(-index1).addClass('act').siblings().removeClass('act')
+})
+$('.main_box').on('swipeRight',function(){
+	index1++;
+	if(index1>=0){
+	index1=0;
+	}
+	$('.main_box .out').animate({left:12.42*index1+'rem'})
+	$('#navhead li').eq(-index1).addClass('act').siblings().removeClass('act')
+})
+setTimeout(function(){
+	var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true,
+//      centeredSlides: true,
+        autoplay: 3000,
+        autoplayDisableOnInteraction: false,
+        loop:true
+    });
+},200)
+
+var lis=$('#navhead li');
+console.log(lis)
+for(var i=0;i<lis.length;i++){
+	lis[i].index=i;
+	$('#navhead li').eq(i).on('tap',function(){
+		index1=-(this.index);
+		
+		$('.main_box .out').animate({left:12.42*index1+'rem'})
+	$('#navhead li').eq(-index1).addClass('act').siblings().removeClass('act')
+	})
+}
+    
+    $http.get('json/tuijian.json')
+			.success(function(data,status,headers,config){
+				$scope.names=data;
+			})
+			.error(function(data,status,headers,config){
+				console.log('error')
+			})
+			
+    $http.get('json/main_lb.json')
+			.success(function(data,status,headers,config){
+				$scope.imgs=data;
+			})
+			.error(function(data,status,headers,config){
+				console.log('error')
+			})
+    $('#product #remo').on('tap',function(){
+    	$('#product').remove()
+    })
+})

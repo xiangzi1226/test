@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+			      <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+        <script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+		<script>
+			var html = document.querySelector("html");
+			html.style.fontSize = html.offsetWidth / 1242*100 + "px";
+			addEventListener("resize", function() {
+				html.style.fontSize = html.offsetWidth / 1242 * 100 + "px";
+			}, false);
+		</script>
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/mian.css"/>
+		<link rel="stylesheet" href="css/find.css" />
+		<link rel="stylesheet" href="font/iconfont.css" />
+		<link rel="stylesheet" href="css/swiper.css" />
+		<link rel="stylesheet" type="text/css" href="css/luntan.css"/>
+		<link rel="stylesheet" type="text/css" href="css/my.css"/>
+		<link rel="stylesheet" type="text/css" href="css/tuijian.css"/>
+		<link rel="stylesheet" type="text/css" href="css/xuanche.css"/>
+	</head>
+	<body ng-app="myapp">								
+				<div ng-view="" class="view_wrap"></div>			
+			<div class="wrapper">
+			<nav>
+					<ul>
+					<li><a href="#/"><i class="iconfont icon1">&#xe61c;</i> <span>推荐</span></a></li>
+		            <li><a href="#/luntan"><i class="iconfont icon2">&#xe676;</i><span>论坛</span></a></li>
+		            <li><a href="#/xuanche"><i class="iconfont icon3">&#xe6a8;</i><span>选车</span></a></li>
+		            <li><a href="#/find"><i class="iconfont icon4">&#xe67e;</i><span>发现</span></a></li>
+		            <li><a href="#/my"><i class="iconfont icon5">&#xe64c;</i><span>我</span></a></li>
+        		</ul>
+			</nav>
+		</div>
+	</body>
+  
+        <script src="js/zepto.js"></script>
+        <script src="js/event.js"></script>
+        <script src="js/touch.js"></script>
+        <script src="js/swiper.js"></script>
+	<script>
+       var app= angular.module('myapp',['ngRoute'])
+            app.config(['$routeProvider', function($routeProvider){
+                $routeProvider
+                .when('/',{templateUrl:'html/main.html'})
+                .when('/luntan',{templateUrl:'html/luntan.html',controller:'luntan'})
+                .when('/xuanche',{templateUrl:'html/xuanche.html'})
+                .when('/find',{templateUrl:'html/find.html',controller:'findCtr'})
+                .when('/my',{templateUrl:'html/my.html'})
+             	.otherwise({redirectTo:'/'});
+            }]);
+        </script>
+         <script src="js/find.js"></script>
+        <script src="js/fx.js"></script>
+        <script src="js/luntan.js"></script>
+        <script src="js/my.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/xuanche.js"></script>
+</html>
+	

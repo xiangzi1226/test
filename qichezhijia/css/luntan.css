@@ -1,0 +1,220 @@
+.luntan {
+  width: 12.42rem;
+  height: auto;
+}
+.luntan .header {
+  height: 1.3rem;
+  width: 100%;
+  background: #FFFFFF;
+  position: fixed;
+  left: 0;
+  top: 0;
+  border-bottom: solid 1px #E9E9E9;
+  z-index: 100;
+  background: #fff;
+}
+.luntan .header .sp1 {
+  display: block;
+  float: left;
+  margin: 0 1.4rem 0 4.6rem;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  width: 1.14rem;
+  text-align: center;
+  font-size: .44rem;
+  box-sizing: border-box;
+}
+.luntan .header .border {
+  border-bottom: solid .08rem #333333;
+}
+.luntan .header .sp2 {
+  display: block;
+  float: left;
+  height: 1.3rem;
+  line-height: 1.3rem;
+  width: 1.14rem;
+  text-align: center;
+  font-size: .44rem;
+  box-sizing: border-box;
+}
+.luntan .header .icon::after {
+  display: block;
+  width: 1.34rem;
+  content: '\e686';
+  float: right;
+  line-height: 1.3rem;
+  text-align: center;
+}
+.luntan .lun-box {
+  width: 12.42rem;
+  height: 19.44rem;
+  position: relative;
+  overflow-y: auto;
+  overflow-x: hidden;
+  top: 1.3rem;
+  margin-bottom: 1.3rem;
+  box-sizing: border-box;
+}
+.luntan .lun-box .position {
+  width: 24.84rem;
+  height: auto;
+  position: absolute;
+  left: 0;
+  /*right*/
+}
+.luntan .lun-box .position .left {
+  width: 12.42rem;
+  height: auto;
+  float: left;
+}
+.luntan .lun-box .position .left .banner {
+  height: 2.96rem;
+  width: 100%;
+}
+.luntan .lun-box .position .left .banner img {
+  height: 100%;
+  width: 100%;
+}
+.luntan .lun-box .position .left .nav-title {
+  padding-left: .45rem;
+  box-sizing: border-box;
+  height: 4.3rem;
+  width: 100%;
+}
+.luntan .lun-box .position .left .nav-title .title {
+  height: 1.52rem;
+  width: 100%;
+}
+.luntan .lun-box .position .left .nav-title .title span {
+  display: block;
+  float: left;
+  height: 1.52rem;
+  line-height: 1.52rem;
+  width: 9.7rem;
+  font-size: .44rem;
+}
+.luntan .lun-box .position .left .nav-title .title i {
+  display: block;
+  float: left;
+  width: 2.26rem;
+  height: 1.52rem;
+  line-height: 1.52rem;
+  font-size: .36rem;
+  color: #999999;
+}
+.luntan .lun-box .position .left .nav-title .title .icon::after {
+  content: '\e65e';
+  margin-left: .36rem;
+}
+.luntan .lun-box .position .left .nav-title li {
+  float: left;
+  width: auto;
+  height: .92rem;
+  padding: 0 .30rem 0 .30rem;
+  font-size: .34rem;
+  line-height: .92rem;
+  background: #F4F7FF;
+  margin-right: .32rem;
+  margin-bottom: .28rem;
+  box-sizing: border-box;
+  color: #4183FF;
+  border: solid .01rem #4183FF;
+}
+.luntan .lun-box .position .left .nav-title li:nth-of-type(3), .luntan .lun-box .position .left .nav-title li:nth-of-type(5) {
+  border: solid .01rem #FF9000;
+  color: #FF9000;
+}
+.luntan .lun-box .position .left .blank {
+  width: 100%;
+  height: .3rem;
+  background: #F0EFF5;
+}
+.luntan .lun-box .position .left .times {
+  padding-left: .45rem;
+  box-sizing: border-box;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  width: 100%;
+}
+.luntan .lun-box .position .left .times .icon1::after {
+  display: block;
+  float: left;
+  content: '\e636';
+  color: #F85858;
+  font-size: .52rem;
+}
+.luntan .lun-box .position .left .times span {
+  width: 3.68rem;
+  text-align: center;
+  display: block;
+  font-size: .48rem;
+  color: #333333;
+  font-weight: 600;
+  float: left;
+}
+.luntan .lun-box .position .left .times .icon2::after {
+  line-height: 1.7rem;
+  display: block;
+  float: right;
+  content: '\e65e';
+  color: #C7C7C7;
+  margin-right: .66rem;
+}
+.luntan .lun-box .position .left .list {
+  height: auto;
+  width: 100%;
+}
+.luntan .lun-box .position .left .list ul li {
+  width: 100%;
+  border-bottom: solid .01rem #E9E9E9;
+}
+.luntan .lun-box .position .left .list ul li .top {
+  height: 2.48rem;
+  width: 100%;
+}
+.luntan .lun-box .position .left .list ul li .top span {
+  display: block;
+  float: left;
+  width: 8.32rem;
+  height: 2.48rem;
+  font-size: .44rem;
+  color: #333333;
+  box-sizing: border-box;
+  padding: .5rem .46rem 0 .46rem;
+}
+.luntan .lun-box .position .left .list ul li .top img {
+  float: left;
+  height: 2.08rem;
+  width: 3.62rem;
+  margin-top: .36rem;
+}
+.luntan .lun-box .position .left .list ul li .bottom {
+  height: .8rem;
+  width: 100%;
+  line-height: .8rem;
+}
+.luntan .lun-box .position .left .list ul li .bottom .sp1 {
+  font-size: .34rem;
+  color: #666666;
+  display: block;
+  float: left;
+  width: 10.18rem;
+  box-sizing: border-box;
+  padding-left: .46rem;
+}
+.luntan .lun-box .position .left .list ul li .bottom .sp2 {
+  font-size: .34rem;
+  color: #666666;
+  display: block;
+  float: left;
+  width: 2.18rem;
+  box-sizing: border-box;
+  padding-left: .46rem;
+}
+.luntan .lun-box .position .right {
+  width: 12.42rem;
+  height: auto;
+  float: left;
+}
+
+/*# sourceMappingURL=luntan.css.map */

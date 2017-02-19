@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+			<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<script>
+			var html = document.querySelector("html");
+			html.style.fontSize = html.offsetWidth / 12.42 + "px";
+			addEventListener("resize", function() {
+				html.style.fontSize = html.offsetWidth / 12.42 * 100 + "px";
+			}, false);
+		</script>
+		<title></title>
+		
+	</head>
+	<body ng-app="myapp">
+		<div class="wrapper">
+			<header></header>
+			<section>
+				<div ng-view></div>
+			</section>
+			<nav>
+				<ul>
+		            <li><a href="#/">推荐</a></li>
+		            <li><a href="#/luntan">论坛</a></li>
+		            <li><a href="#/xuanche">选车</a></li>
+		            <li><a href="#/find">发现</a></li>
+		            <li><a href="#/my">我</a></li>
+        		</ul>
+			</nav>
+		</div>
+	</body>
+        <script src="http://apps.bdimg.com/libs/angular.js/1.4.6/angular.min.js"></script>
+        <script src="http://apps.bdimg.com/libs/angular-route/1.3.13/angular-route.js"></script>
+        <script src="js/zepto.js"></script>
+        <script src="js/event.js"></script>
+        <script src="js/touch.js"></script>
+        <script src="js/swiper.js"></script>
+	<script>
+            angular.module('myapp',['ngRoute'])
+            .config(['$routeProvider', function($routeProvider){
+                $routeProvider
+                .when('/',{templateUrl:'html/main.html'})
+                .when('/luntan',{templateUrl:'html/luntan.html'})
+                .when('/xuanche',{templateUrl:'html/xuanche.html'})
+                .when('/faxian',{templateUrl:'html/find.html'})
+                .when('/my',{templateUrl:'html/my.html'});
+            }]);
+        </script>
+</html>
+	

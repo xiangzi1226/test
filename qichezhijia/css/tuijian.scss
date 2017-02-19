@@ -1,0 +1,225 @@
+#main_wrapper{
+    width: 100%;
+    height: 100%;
+    #fixed{
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: auto;
+      #head1{
+       width: 100%;
+       height: 1.32rem;
+       border-bottom: 2px solid #E9E9E9; 
+       line-height: 1.32rem;
+       #hl{
+           float: left;
+           margin-left: 0.45rem;
+           img{
+               float: left;
+               height: 0.83rem;
+               margin-top: 0.2rem;
+               margin-right: 0.03rem;
+               width: 1.0rem;
+               height: 0.8rem;
+           }
+           #xsq{
+               font-size: 0.35rem;
+               float: left;
+               color: #555555;
+           }
+       }
+       #hr{
+           float: right;
+           margin-right: 0.35rem;
+           margin-top: -0.08rem;
+           .ser::before{
+               content: '\e686';
+               font-size: 0.66rem;
+           }
+       }
+    }
+    #nav1{
+        width: 100%;
+        height: 1.4rem;
+        position: relative;
+        ul{
+            overflow: hidden;
+            line-height: 1.3rem;
+            margin-left: 0.4rem;
+            li{
+                float: left;
+                padding: 0 0.1rem;
+                margin: 0 0.26rem;
+                font-size: 0.44rem;
+                color: #999999;
+            }
+            li.act{
+                color: #333333;
+                border-bottom: 2px solid #000000;
+            }
+        }
+        .kinds{
+            position: absolute;
+            right: 0;
+            height: 0.65rem;
+            width: 1.32rem;
+            top: 0.32rem;
+            border-left: 1px solid #D3D3D3;
+            text-align: center;
+            line-height: 0.65rem;
+            background: rgba(255,255,255,0.5);
+        }
+        .kinds::before{
+            content: '\e501';
+            color: #555555;
+            font-size: 0.37rem;
+        }
+    }  
+    }
+    
+    .main_box{
+        width: 100%;
+        height: 18.0rem;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: auto;
+        margin-top: 2.75rem;
+        .out{
+            width: 86.94rem;
+            height: auto;
+            position: absolute;
+            left: 0;
+            top: 0;
+            overflow: hidden;
+            .tab_box{
+                width: 12.42rem;
+                height: auto;
+                float: left;
+            }
+            #refreshContainer{
+                width: 12.42rem;
+                height:20.0rem;
+                overflow-y: auto;
+            }
+            .tab{
+                position: relative;
+                .swiper-container{
+                 width: 100%;
+                 height: 6.2rem;
+                 .swiper-slide{
+                     img{
+                         width: 100%;
+                         height: 100%;
+                     }
+                 }
+                 .swiper-pagination-bullets{
+                     width: 98%;
+                     .swiper-pagination-bullet{
+                         width: 0.15rem;
+                         height: 0.15rem;
+                         background: #818896;
+                         border-radius: 0;
+                     }
+                     .swiper-pagination-bullet-active{
+                         width: 0.25rem;
+                         height: 0.25rem;
+                         background: #FFFFFF;
+                     }
+                 }
+                 .swiper-pagination{
+                     text-align: right;
+                 }
+                }
+                #product{
+                    width: 100%;
+                    height: 2.05rem;
+                    position: relative;
+                    border-bottom: 2px solid #E9E9E9;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                        display: block;
+                        border: 0;
+                    }
+                    #remo{
+                        position: absolute;
+                        right: 0.3rem;
+                        top: 0.42rem;
+                    }
+                    #remo::before{
+                        content: '\e637';
+                        font-size: 0.4rem;
+                        color: #C2C2C2;
+                    }
+                }
+                #guanggao{
+                        height: 2.44rem;
+                        width: 100%;
+                        img{
+                            width: 100%;
+                            height: 100%;
+                        }
+                    }
+                #ulbox{
+                    height: auto;
+                    ul .numb{
+                        height: 3.3rem;
+                        border-bottom: 2px solid #E9E9E9;
+                        #first{
+                            height: 2.05rem;
+                            margin-top: 0.39rem;
+                            #tit{
+                                width: 7.33rem;
+                                font-size: 0.45rem;
+                                color: #333333;
+                                float: left;
+                                margin-left: 0.48rem;
+                                margin-top: 0.03rem;
+                                font-weight: bold;
+                            }
+                            img{
+                                width: 3.64rem;
+                                height: 100%;
+                                float: right;
+                                margin-right: 0.45rem;
+                            }
+                        }
+                        #second{
+                            height: 0.6rem;
+                            margin-top: 0.25rem;
+                            #s1{
+                                float: left;
+                                margin-left: 0.48rem;
+                                #sign{
+                                  float: left;
+                                  font-size: 0.16rem;  
+                                  color: #4183FF;
+                                  width: 1.2rem;
+                                  height: 0.62rem;
+                                  border: 1px solid #4C8AFF;
+                                  text-align: center;
+                                  line-height: 0.62rem;
+                                }
+                                #come{
+                                    float: left;
+                                    font-size: 0.32rem;
+                                    color: #999999;
+                                    margin-left: 0.33rem;
+                                }
+                            }
+                            #date{
+                                font-size: 0.26rem;
+                                color: #999999;
+                                float: right;
+                                margin-right: 0.46rem;
+                            }
+                        }
+                    }
+                }    
+            }
+            
+        }
+        
+    }
+}

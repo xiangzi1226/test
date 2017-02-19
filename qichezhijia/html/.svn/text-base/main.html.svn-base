@@ -1,0 +1,82 @@
+<div id="main_wrapper" ng-controller='main_app'>
+	<div id="fixed">
+		<div id="head1">
+			<div id='hl'>
+				<img src="img/qg.jpg"/>
+				<span id="xsq">
+					限时抢
+				</span>
+			</div>
+			<div id="hr">
+				<i class="iconfont ser"></i>
+			</div>
+	    </div>
+		<div id="nav1">
+			<ul id="navhead">
+				<li class="act">推荐</li>
+				<li>优创+</li>
+				<li>说客</li>
+				<li>视频</li>
+				<li>快报</li>
+				<li>游记</li>
+				<li>新闻</li>
+			</ul>
+			<div class="iconfont kinds"></div>
+		</div>
+	</div>
+	
+	<div class="main_box">
+		<div class="out">
+			<div class="tab_box tab">
+				<div class="swiper-container">
+			        <div class="swiper-wrapper">
+			        	<div ng-repeat="x in imgs" class="swiper-slide">
+							<img src="{{x.url}}"/>
+				        </div>
+			        </div>
+                   <div class="swiper-pagination"></div>
+              </div>
+              <div id="product">
+              	<img src="img/timg.jpg"/>
+              	<span id="remo" class="iconfont">
+              		
+              	</span>
+              </div>
+              <div id="guanggao">
+              	<img src="img/qiang.jpg"/>
+              </div>
+              <div id="ulbox">
+              	<ul>
+				<li ng-repeat="x in names" class="numb">
+					<div id="first">
+						<span id="tit">
+							{{x.title}}
+						</span>
+						<img src="{{x.url}}"/>
+					</div>
+					<div id="second">
+						<div id="s1">
+							<span id="sign">
+								{{x.sign}}
+							</span>
+							<span id="come">
+								{{x.comment}}
+							</span>
+						</div>
+						<span id="date">
+							{{x.data}}
+						</span>
+					</div>
+				</li>
+			</ul>
+              </div>
+			</div>
+			<div class="tab_box">2</div>
+			<div class="tab_box">3</div>
+			<div class="tab_box">4</div>
+			<div class="tab_box">5</div>
+			<div class="tab_box">6</div>
+			<div class="tab_box">7</div>
+		</div>
+	</div>
+</div>

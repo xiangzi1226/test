@@ -1,0 +1,414 @@
+.my {
+  width: 12.42rem;
+  height: 22rem;
+  position: relative;
+  overflow: hidden;
+}
+.my .container {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 10;
+  height: auto;
+  width: 100%;
+}
+.my .container .header {
+  width: 100%;
+  height: 1.2rem;
+}
+.my .container .header i {
+  display: block;
+  width: 100%;
+  height: 1.2rem;
+  line-height: 1.2rem;
+  box-sizing: border-box;
+  text-align: right;
+  padding-right: .54rem;
+  color: #555555;
+  font-size: .62rem;
+}
+.my .container .account {
+  height: 7.5rem;
+  width: 100%;
+}
+.my .container .account .logo {
+  height: 2.28rem;
+  width: 2.28rem;
+  border: solid 1px #333;
+  border-radius: 100%;
+  margin-left: 5.06rem;
+  margin-top: .26rem;
+  overflow: hidden;
+}
+.my .container .account .logo img {
+  height: 100%;
+  width: 100%;
+}
+.my .container .account .name {
+  height: 1.46rem;
+  width: 2.28rem;
+  text-align: center;
+  margin-left: 5.06rem;
+  line-height: 1.46rem;
+  font-size: .44rem;
+  color: #4F4F4F;
+}
+.my .container .account .minlogo {
+  height: 3.5rem;
+  width: 100%;
+}
+.my .container .account .minlogo ul {
+  width: 100%;
+  height: 3.5rem;
+}
+.my .container .account .minlogo ul li {
+  width: 4.12rem;
+  float: left;
+}
+.my .container .account .minlogo ul li i {
+  margin-top: 1.5rem;
+  margin-bottom: .24rem;
+  display: block;
+  text-align: center;
+  color: #787878;
+  font-size: .64rem;
+}
+.my .container .account .minlogo ul li span {
+  display: block;
+  text-align: center;
+  color: #8C8C8C;
+  width: 4.12rem;
+  font-size: .34rem;
+}
+.my .container .blank {
+  width: 100%;
+  height: .28rem;
+  background: #F0EFF5;
+}
+.my .container .collect {
+  height: 1.52rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 .52rem 0 .46rem;
+}
+.my .container .collect .left {
+  width: 10.5rem;
+  height: 1.52rem;
+  float: left;
+  box-sizing: border-box;
+}
+.my .container .collect .left i {
+  font-size: .54rem;
+  color: #FFCC00;
+}
+.my .container .collect .left span {
+  font-size: .44rem;
+  color: #333333;
+}
+.my .container .collect .right {
+  font-size: .36rem;
+  color: #3333333;
+  float: left;
+  line-height: 1.52rem;
+}
+.my .container .privilege {
+  height: 1.52rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 .52rem 0 .46rem;
+}
+.my .container .privilege .left {
+  width: 10.5rem;
+  height: 1.52rem;
+  float: left;
+  box-sizing: border-box;
+}
+.my .container .privilege .left i {
+  font-size: .54rem;
+  color: #F85858;
+}
+.my .container .privilege .left span {
+  font-size: .44rem;
+  color: #333333;
+}
+.my .container .privilege .right {
+  font-size: .36rem;
+  color: #333333;
+  float: left;
+  line-height: 1.52rem;
+}
+.my .container .history {
+  box-sizing: border-box;
+  width: 100%;
+  height: 3rem;
+  padding-left: .46rem;
+}
+.my .container .history .history-top {
+  height: 1.48rem;
+  width: 100%;
+}
+.my .container .history .history-top .icon1 {
+  display: block;
+  float: left;
+  width: .74rem;
+  height: 1.48rem;
+  line-height: 1.48rem;
+  font-size: .52rem;
+  color: #333333;
+}
+.my .container .history .history-top .border-btm {
+  float: left;
+  height: 1.48rem;
+  line-height: 1.48rem;
+  width: 11.22rem;
+  box-sizing: border-box;
+  border-bottom: solid .01rem #E9E9E9;
+  padding-left: .28rem;
+}
+.my .container .history .history-top .border-btm span {
+  float: left;
+  font-size: .4rem;
+  color: #333333;
+  display: block;
+  width: 9.6rem;
+}
+.my .container .history .history-top .border-btm .icon2 {
+  display: block;
+  float: left;
+  width: 1.1rem;
+  height: 1.48rem;
+  line-height: 1.48rem;
+  font-size: .52rem;
+  color: #333333;
+}
+.my .container .history .history-bottom {
+  height: 1.48rem;
+  width: 100%;
+}
+.my .container .history .history-bottom .icon1 {
+  display: block;
+  float: left;
+  width: .74rem;
+  height: 1.48rem;
+  line-height: 1.48rem;
+  font-size: .52rem;
+  color: #333333;
+}
+.my .container .history .history-bottom .border-btm {
+  float: left;
+  height: 1.48rem;
+  line-height: 1.48rem;
+  width: 11.22rem;
+  box-sizing: border-box;
+  padding-left: .28rem;
+}
+.my .container .history .history-bottom .border-btm span {
+  float: left;
+  font-size: .4rem;
+  color: #333333;
+  display: block;
+  width: 9.6rem;
+}
+.my .container .history .history-bottom .border-btm .icon2 {
+  display: block;
+  float: left;
+  width: 1.1rem;
+  height: 1.48rem;
+  line-height: 1.48rem;
+  font-size: .52rem;
+  color: #555555;
+}
+.my .container .setting {
+  height: 1.52rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 .52rem 0 .46rem;
+}
+.my .container .setting .left {
+  width: 10.5rem;
+  height: 1.52rem;
+  float: left;
+  box-sizing: border-box;
+}
+.my .container .setting .left i {
+  font-size: .54rem;
+  color: #555555;
+}
+.my .container .setting .left span {
+  font-size: .44rem;
+  color: #333333;
+}
+.my .container .setting .right {
+  font-size: .36rem;
+  color: #3333333;
+  float: left;
+  line-height: 1.52rem;
+}
+.my .container .color {
+  height: 3.2rem;
+  width: 100%;
+  background: #F0EFF5;
+}
+.my .login {
+  background: #fff;
+  position: absolute;
+  left: 12.42rem;
+  top: 0;
+  z-index: 20;
+  height: 100%;
+  width: 100%;
+}
+.my .login .login-banner {
+  height: 6.6rem;
+  width: 100%;
+}
+.my .login .login-banner img {
+  height: 100%;
+  width: 100%;
+}
+.my .login .exit {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 1.3rem;
+  width: 1.44rem;
+  z-index: 100;
+}
+.my .login .form {
+  margin-top: .55rem;
+  height: 7.44rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 .9rem 0 .9rem;
+}
+.my .login .form input {
+  outline: none;
+  border: 0;
+}
+.my .login .form .username {
+  height: 1.8rem;
+  width: 100%;
+  border-bottom: solid 1px #E9E9E9;
+  font-size: .46rem;
+  color: #CCCCCC;
+  line-height: 2.2rem;
+}
+.my .login .form .pwd {
+  height: 1.78rem;
+  width: 100%;
+  border-bottom: solid 1px #E9E9E9;
+  font-size: .46rem;
+  color: #CCCCCC;
+  line-height: 2.2rem;
+}
+.my .login .form .btn {
+  outline: none;
+  border: 0;
+  height: 1.36rem;
+  width: 100%;
+  background: #8DB4FF;
+  color: #D1E1FF;
+  margin-top: 1.2rem;
+  font-size: .42rem;
+  border-radius: .16rem;
+}
+.my .login .form .login-text {
+  height: 1.28;
+  width: 100%;
+}
+.my .login .form .login-text .sp1 {
+  font-size: .36rem;
+  display: block;
+  float: left;
+  color: #999999;
+  width: 1rem;
+  height: 1.28;
+  line-height: 1.28rem;
+}
+.my .login .form .login-text .sp2 {
+  font-size: .36rem;
+  display: block;
+  float: right;
+  color: #999999;
+  width: 2rem;
+  height: 1.28;
+  line-height: 1.28rem;
+}
+.my .regest {
+  background: #fff;
+  position: absolute;
+  left: 12.42rem;
+  top: 0;
+  z-index: 30;
+  height: 100%;
+  width: 100%;
+}
+.my .regest #head {
+  height: 1.74rem;
+  line-height: 1.74rem;
+  width: 100%;
+  border-bottom: 1px solid #E0E0E0;
+  text-align: center;
+  position: relative;
+  font-size: 0.48rem;
+  color: #161616;
+}
+.my .regest #head #zjt {
+  position: absolute;
+  left: 0.44rem;
+  top: 50%;
+  font-size: 0.64rem;
+  margin-top: -0.32rem;
+}
+.my .regest .form {
+  margin-top: .55rem;
+  height: 7.44rem;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0 .9rem 0 .9rem;
+}
+.my .regest .form input {
+  outline: none;
+  border: 0;
+}
+.my .regest .form .username {
+  height: 1.8rem;
+  width: 100%;
+  border-bottom: solid 1px #E9E9E9;
+  font-size: .46rem;
+  color: #CCCCCC;
+  line-height: 2.2rem;
+}
+.my .regest .form .pwd {
+  height: 1.78rem;
+  width: 100%;
+  border-bottom: solid 1px #E9E9E9;
+  font-size: .46rem;
+  color: #CCCCCC;
+  line-height: 2.2rem;
+}
+.my .regest .form .btn {
+  font-size: .42rem;
+  outline: none;
+  border: 0;
+  height: 1.36rem;
+  width: 100%;
+  background: #8DB4FF;
+  color: #D1E1FF;
+  margin-top: 1.2rem;
+  border-radius: .16rem;
+}
+.my .regest .form .regest-text {
+  height: 1.28;
+  width: 100%;
+  font-size: .36rem;
+  line-height: 1.28rem;
+}
+.my .regest .form .regest-text .sp1 {
+  color: #9B9B9B;
+}
+.my .regest .form .regest-text .sp2 {
+  color: #367DFF;
+}
+
+/*# sourceMappingURL=my.css.map */

@@ -1,0 +1,73 @@
+<div class="wrapper1" ng-controller="chooseCar">
+    <div class="top">
+        <span  class="new tap">新车</span>
+        <div class="borderBottom"></div>
+        <span class="old tap">二手车</span>
+        <i class="bigFic"></i>
+    </div>
+    <div class="bigBox">
+        <div class="smallBox">
+            <div class="left box">
+                     <div class="navBox">
+                            <div class="nav">
+                                 <div class="navFont">
+                                     <div class="minBox"><i class="introduction font"></i></div>
+                                     <span class="word">个性推荐</span>
+                                 </div>
+                                 <div class="navFont">
+                                     <div class="minBox"><i class="hot font"></i></div>
+                                     <span class="word">热销排行</span>
+                                 </div>
+                                 <div class="navFont">
+                                     <div class="minBox"><i class="favorable font"></i></div>
+                                     <span class="word">降价优惠</span>
+                                 </div>
+                                 <div class="navFont">
+                                     <div class="minBox"><i class="collection font"></i></div>
+                                     <span class="word">我的收藏</span>
+                                 </div>
+                                 <div class="navFont">
+                                     <div class="minBox"><i class="history font"></i></div>
+                                     <span class="word">浏览记录</span>
+                                 </div>
+
+                            </div>
+                     </div>
+                     <div class="bottomBox">
+                                    <div class="condition">
+                                            <span class="choose">条件选车</span>
+                                            <i class="xiangyou"></i>
+                                            <span class="chexing">7875个车型</span>
+                                       
+                                    </div>
+                                    <div class="hotBrand">
+                                         热门品牌
+                                    </div>
+                                     <div class="bigBrand">
+                                             <ul class="smallBrand">
+                                                <li ng-repeat="x in names" class="Brand">
+                                                    <img src="{{x.img}}" class="brandTop">
+                                                    <span class="brandBottom">{{x.name}}</span>
+                                                </li>
+                                            </ul>
+                                     </div>
+                                     <div class="hotBrand">
+                                           <span>主打车</span>
+                                           <span class="mainCar">广告</span>
+                                     </div>
+                                     <div class="carImg">
+                                          <ul class="carBox">
+                                                <li ng-repeat="x in cars" class="box">
+                                                    <img src="{{x.url}}" class="carImage">
+                                                    <span class="carWord">{{x.name}}</span>
+                                                </li>
+                                     </div>
+                       </div>
+            </div>
+             <div class="right box">
+                    <span>我是刘艳艳 我不是人 我错了</span>
+             </div>
+
+        </div>
+    </div>
+</div>

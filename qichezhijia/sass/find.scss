@@ -1,0 +1,340 @@
+html,body,ul{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+p,h3,h2{
+    margin: 0;
+    padding: 0;
+}
+img{
+    border: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+    .view_wrap{
+         width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .find_wrap{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;       
+        header{
+            width: 6.73rem;
+            height: 1.37rem;
+            line-height: 1.37rem;           
+            font-size: 0.5rem;
+            padding-left: 5.69rem;           
+             .find_search{
+                 font-size: 0.64rem;;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  
+                 float:right;
+                 padding-right: 0.5rem;
+             }
+        }
+        .find_mian{
+            width: 100%;
+            flex-grow: 1;
+            overflow-y: auto;
+            height: 100%;
+        .find_banner{
+            width: 100%;
+            height: 4.23rem;
+            position: relative;
+             overflow: hidden;
+             .fb_wrap{
+                 width: 100%;
+                 height: 100%;
+                 img{
+                     display: block;
+                     width: 100%;
+                     height: 100%;
+                 }
+             }
+          #find_line{
+              span{
+                   width: 0.4rem;
+                    height: 0.09rem;
+                    display: inline-block;          
+                    background: #000;
+                    border-radius: 0;
+                    opacity: .2;
+              }
+               .swiper-pagination-bullet-active{
+                   opacity: 1;
+                   background: #ffffff;
+            }
+            
+          }
+         
+        }
+        .nav{
+            width: 100%;
+            height: 5.67rem;
+            ul{
+                width: 100%;
+                height: 100%;                                                     
+                li{
+                    width: 20%;
+                    height: 2rem;
+                    float: left;
+                    margin-top: 0.46rem;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-between;
+                    align-items: center;
+                   text-align: center;
+                    span{
+                        display: block;
+                        font-size: 0.35rem;
+                    }
+                    span:nth-of-type(1){
+                        width: 1.33rem;
+                        height: 1.33rem;
+                        img{
+                            display: block;
+                            width: 100%;
+                            height: 100%;
+                        }
+                        span:nth-of-type(2){
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+        .kongbai{
+            width: 100%;
+            height: 0.36rem;
+            background: #f0eff5;
+        }
+        .panic,.find_time{
+            width: 100%;
+            height: 5.7rem;
+            padding-top: 0.77rem;
+            h3{
+                padding-left: 0.46rem;
+                font-size: 0.46rem;
+                margin-bottom: 0.3rem;
+                float: left;
+            }
+            .count_down{
+                float: right;
+                font-size:0.36rem ;
+                padding-right: 0.44rem;
+                span{
+                    display: inline-block;
+                    width: 0.60rem;
+                    height: 0.60rem;
+                    background:#333333;
+                    text-align: center;
+                    line-height: 0.60rem;
+                    color: #fff;
+                    border-radius:2px;
+                }
+            }
+            .pan_wrap{
+                width: 100%;
+                height: 100%;
+                display: flex;
+                overflow: hidden;
+                overflow-x: auto;
+            .pic_wrap{
+                padding-left: 0.46rem;
+                 width: 4.17rem;
+                 height: 3.9rem;
+                
+                img{
+                     display: block;
+                     width: 4.17rem;
+                     height: 2.37rem;
+                }
+                .car_name{
+                    font-size: 0.46rem;
+                    margin-top: 0.32rem;
+                }
+                .car_price{
+                    font-size: 0.3rem;
+                    color: #ff651a;
+                    margin-top: 0.26rem;
+                }   
+                }
+            }
+        }
+       .gift{
+           width: 100%;
+           height: 2.5rem;
+           
+       }
+       .find_time{
+           width: 100%;
+           height: 5.7rem;
+           .flash_sale{
+               width: 100%;
+               height: 0.55rem;
+               margin-bottom: 0.3rem;             
+               }
+                .pic_wrap{
+                   border: 1px solid #e9e9e9;
+                   .car_name{
+                       margin-top: 0;
+                   }
+           }
+        }
+        .find_service{
+            width: 100%;
+            overflow: hidden;
+            h3{
+                width: 11.92rem;
+                height: 1.5rem;
+                line-height: 1.5rem;
+                padding-left: 0.5rem;
+                font-size: 0.46rem;
+            }
+            .module_wrap{
+                width: 100%;
+                .module{
+                    width: 5.25rem;
+                    height: 2.46rem;
+                    padding: 0.47rem;
+                    border-top: 1px solid #e9e9e9;
+                    float: left;
+                    display: flex;
+                    flex-direction: column;
+                    .mo_pic{
+                        flex-grow: 1;
+                    }
+                    h2{
+                        font-size: 0.47rem;
+                    }
+                    p{
+                        font-size: 0.36rem;
+                        color: #9f9f9f;
+                        margin-top: 0.25rem;
+                    }
+                }
+                div:nth-of-type(even){
+                    border-right:1px solid #e9e9e9;
+                }
+            }
+        }
+        .overflow{
+            width: 100%;
+            overflow: hidden;
+             .pic_wrap:nth-of-type(odd){
+                 border-right: 1px solid #9f9f9f;
+             }   
+            h2{
+                width: 100%;
+                height: 1.70rem;
+                line-height: 1.70rem;
+                padding-left: 0.56rem;
+                font-size: 0.51rem;
+            }
+            .pic_wrap{
+                width: 6.19rem;
+                height: 8.28rem;
+                border-top: 1px solid #9f9f9f;
+                float: left;
+            
+                .pic{
+                    width: 100%;
+                    height: 4.28rem;
+                }
+                .font_wrap{
+                    padding-left: 0.56rem;
+                    h3{
+                        line-height: 0.90rem;
+                        font-size: 0.47rem;
+                    }
+                    p{
+                        color: #8a8a8a;
+                        line-height: 0.62rem;                       
+                        padding-right: 0.72rem;                       
+                        font-size: 0.3rem;
+                    }
+                }
+                .now{
+                   
+                    margin-top: 0.62rem;
+                    padding-left: 0.56rem;
+                    font-size: 0.40rem;
+                    color: #eea294;
+                }
+                .old{
+                    
+                    font-size: 0.30rem;
+                    color: #c7c7c7;
+                    text-decoration: line-through;
+                    
+                }
+            }
+        }
+        .find_list{
+            width: 100%;
+            h3{
+                padding-left: 0.35rem;
+                height: 1.75rem;
+                border-top: 1px solid #9F9F9F;
+                font-size: 0.55rem;
+                line-height: 1.75rem;
+            }
+            .list_mod{
+                width: 100%;
+                height: 3.95rem;
+                border-top: 1px solid #9F9F9F;
+                display: flex;
+                .list_left{
+                    width: 4.29rem;
+                    height: 100%;
+                }
+                .list_right{
+                    flex-grow: 1;
+                    h2{
+                        width: 7.23rem;
+                        height: 1.83rem;
+                        margin-top: 0.28rem;
+                        line-height: 0.9rem;
+                        font-size: 0.50rem;
+                    }
+                    p{
+                        font-size: 0.4rem;
+                        color: #979797;
+                        line-height: 0.92rem;
+                    }
+                    .price{
+                        width: 100%;
+                        height: 0.44rem;
+                        line-height: 0.44rem;
+                        .now{
+                           
+                            font-size: 0.44rem;
+                            color: #fc6934;
+                            float: left;
+                        }
+                        .old{
+                          
+                            font-size: 0.35rem;
+                            text-decoration: line-through;
+                            color: #757575;
+                            float: left;
+                            margin-left: 0.2rem;
+                        }
+                    }
+                }
+            }
+        }
+    }
+       footer{
+           width: 100%;
+           height: 1.28rem;
+       }
+    }
+

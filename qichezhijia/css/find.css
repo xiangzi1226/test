@@ -1,0 +1,334 @@
+html, body, ul {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+p, h3, h2 {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  border: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.view_wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.find_wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.find_wrap header {
+  width: 6.73rem;
+  height: 1.37rem;
+  line-height: 1.37rem;
+  font-size: 0.5rem;
+  padding-left: 5.69rem;
+}
+.find_wrap header .find_search {
+  font-size: 0.64rem;
+  float: right;
+  padding-right: 0.5rem;
+}
+.find_wrap .find_mian {
+  width: 100%;
+  flex-grow: 1;
+  overflow-y: auto;
+  height: 100%;
+}
+.find_wrap .find_mian .find_banner {
+  width: 100%;
+  height: 4.23rem;
+  position: relative;
+  overflow: hidden;
+}
+.find_wrap .find_mian .find_banner .fb_wrap {
+  width: 100%;
+  height: 100%;
+}
+.find_wrap .find_mian .find_banner .fb_wrap img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.find_wrap .find_mian .find_banner #find_line span {
+  width: 0.4rem;
+  height: 0.09rem;
+  display: inline-block;
+  background: #000;
+  border-radius: 0;
+  opacity: .2;
+}
+.find_wrap .find_mian .find_banner #find_line .swiper-pagination-bullet-active {
+  opacity: 1;
+  background: #ffffff;
+}
+.find_wrap .find_mian .nav {
+  width: 100%;
+  height: 5.67rem;
+}
+.find_wrap .find_mian .nav ul {
+  width: 100%;
+  height: 100%;
+}
+.find_wrap .find_mian .nav ul li {
+  width: 20%;
+  height: 2rem;
+  float: left;
+  margin-top: 0.46rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+.find_wrap .find_mian .nav ul li span {
+  display: block;
+  font-size: 0.35rem;
+}
+.find_wrap .find_mian .nav ul li span:nth-of-type(1) {
+  width: 1.33rem;
+  height: 1.33rem;
+}
+.find_wrap .find_mian .nav ul li span:nth-of-type(1) img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.find_wrap .find_mian .nav ul li span:nth-of-type(1) span:nth-of-type(2) {
+  width: 100%;
+}
+.find_wrap .find_mian .kongbai {
+  width: 100%;
+  height: 0.36rem;
+  background: #f0eff5;
+}
+.find_wrap .find_mian .panic, .find_wrap .find_mian .find_time {
+  width: 100%;
+  height: 5.7rem;
+  padding-top: 0.77rem;
+}
+.find_wrap .find_mian .panic h3, .find_wrap .find_mian .find_time h3 {
+  padding-left: 0.46rem;
+  font-size: 0.46rem;
+  margin-bottom: 0.3rem;
+  float: left;
+}
+.find_wrap .find_mian .panic .count_down, .find_wrap .find_mian .find_time .count_down {
+  float: right;
+  font-size: 0.36rem;
+  padding-right: 0.44rem;
+}
+.find_wrap .find_mian .panic .count_down span, .find_wrap .find_mian .find_time .count_down span {
+  display: inline-block;
+  width: 0.60rem;
+  height: 0.60rem;
+  background: #333333;
+  text-align: center;
+  line-height: 0.60rem;
+  color: #fff;
+  border-radius: 2px;
+}
+.find_wrap .find_mian .panic .pan_wrap, .find_wrap .find_mian .find_time .pan_wrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  overflow: hidden;
+  overflow-x: auto;
+}
+.find_wrap .find_mian .panic .pan_wrap .pic_wrap, .find_wrap .find_mian .find_time .pan_wrap .pic_wrap {
+  padding-left: 0.46rem;
+  width: 4.17rem;
+  height: 3.9rem;
+}
+.find_wrap .find_mian .panic .pan_wrap .pic_wrap img, .find_wrap .find_mian .find_time .pan_wrap .pic_wrap img {
+  display: block;
+  width: 4.17rem;
+  height: 2.37rem;
+}
+.find_wrap .find_mian .panic .pan_wrap .pic_wrap .car_name, .find_wrap .find_mian .find_time .pan_wrap .pic_wrap .car_name {
+  font-size: 0.46rem;
+  margin-top: 0.32rem;
+}
+.find_wrap .find_mian .panic .pan_wrap .pic_wrap .car_price, .find_wrap .find_mian .find_time .pan_wrap .pic_wrap .car_price {
+  font-size: 0.3rem;
+  color: #ff651a;
+  margin-top: 0.26rem;
+}
+.find_wrap .find_mian .gift {
+  width: 100%;
+  height: 2.5rem;
+}
+.find_wrap .find_mian .find_time {
+  width: 100%;
+  height: 5.7rem;
+}
+.find_wrap .find_mian .find_time .flash_sale {
+  width: 100%;
+  height: 0.55rem;
+  margin-bottom: 0.3rem;
+}
+.find_wrap .find_mian .find_time .pic_wrap {
+  border: 1px solid #e9e9e9;
+}
+.find_wrap .find_mian .find_time .pic_wrap .car_name {
+  margin-top: 0;
+}
+.find_wrap .find_mian .find_service {
+  width: 100%;
+  overflow: hidden;
+}
+.find_wrap .find_mian .find_service h3 {
+  width: 11.92rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  padding-left: 0.5rem;
+  font-size: 0.46rem;
+}
+.find_wrap .find_mian .find_service .module_wrap {
+  width: 100%;
+}
+.find_wrap .find_mian .find_service .module_wrap .module {
+  width: 5.25rem;
+  height: 2.46rem;
+  padding: 0.47rem;
+  border-top: 1px solid #e9e9e9;
+  float: left;
+  display: flex;
+  flex-direction: column;
+}
+.find_wrap .find_mian .find_service .module_wrap .module .mo_pic {
+  flex-grow: 1;
+}
+.find_wrap .find_mian .find_service .module_wrap .module h2 {
+  font-size: 0.47rem;
+}
+.find_wrap .find_mian .find_service .module_wrap .module p {
+  font-size: 0.36rem;
+  color: #9f9f9f;
+  margin-top: 0.25rem;
+}
+.find_wrap .find_mian .find_service .module_wrap div:nth-of-type(even) {
+  border-right: 1px solid #e9e9e9;
+}
+.find_wrap .find_mian .overflow {
+  width: 100%;
+  overflow: hidden;
+}
+.find_wrap .find_mian .overflow .pic_wrap:nth-of-type(odd) {
+  border-right: 1px solid #9f9f9f;
+}
+.find_wrap .find_mian .overflow h2 {
+  width: 100%;
+  height: 1.70rem;
+  line-height: 1.70rem;
+  padding-left: 0.56rem;
+  font-size: 0.51rem;
+}
+.find_wrap .find_mian .overflow .pic_wrap {
+  width: 6.19rem;
+  height: 8.28rem;
+  border-top: 1px solid #9f9f9f;
+  float: left;
+}
+.find_wrap .find_mian .overflow .pic_wrap .pic {
+  width: 100%;
+  height: 4.28rem;
+}
+.find_wrap .find_mian .overflow .pic_wrap .font_wrap {
+  padding-left: 0.56rem;
+}
+.find_wrap .find_mian .overflow .pic_wrap .font_wrap h3 {
+  line-height: 0.90rem;
+  font-size: 0.47rem;
+}
+.find_wrap .find_mian .overflow .pic_wrap .font_wrap p {
+  color: #8a8a8a;
+  line-height: 0.62rem;
+  padding-right: 0.72rem;
+  font-size: 0.3rem;
+}
+.find_wrap .find_mian .overflow .pic_wrap .now {
+  margin-top: 0.62rem;
+  padding-left: 0.56rem;
+  font-size: 0.40rem;
+  color: #eea294;
+}
+.find_wrap .find_mian .overflow .pic_wrap .old {
+  font-size: 0.30rem;
+  color: #c7c7c7;
+  text-decoration: line-through;
+}
+.find_wrap .find_mian .find_list {
+  width: 100%;
+}
+.find_wrap .find_mian .find_list h3 {
+  padding-left: 0.35rem;
+  height: 1.75rem;
+  border-top: 1px solid #9F9F9F;
+  font-size: 0.55rem;
+  line-height: 1.75rem;
+}
+.find_wrap .find_mian .find_list .list_mod {
+  width: 100%;
+  height: 3.95rem;
+  border-top: 1px solid #9F9F9F;
+  display: flex;
+}
+.find_wrap .find_mian .find_list .list_mod .list_left {
+  width: 4.29rem;
+  height: 100%;
+}
+.find_wrap .find_mian .find_list .list_mod .list_right {
+  flex-grow: 1;
+}
+.find_wrap .find_mian .find_list .list_mod .list_right h2 {
+  width: 7.23rem;
+  height: 1.83rem;
+  margin-top: 0.28rem;
+  line-height: 0.9rem;
+  font-size: 0.50rem;
+}
+.find_wrap .find_mian .find_list .list_mod .list_right p {
+  font-size: 0.4rem;
+  color: #979797;
+  line-height: 0.92rem;
+}
+.find_wrap .find_mian .find_list .list_mod .list_right .price {
+  width: 100%;
+  height: 0.44rem;
+  line-height: 0.44rem;
+}
+.find_wrap .find_mian .find_list .list_mod .list_right .price .now {
+  font-size: 0.44rem;
+  color: #fc6934;
+  float: left;
+}
+.find_wrap .find_mian .find_list .list_mod .list_right .price .old {
+  font-size: 0.35rem;
+  text-decoration: line-through;
+  color: #757575;
+  float: left;
+  margin-left: 0.2rem;
+}
+.find_wrap footer {
+  width: 100%;
+  height: 1.28rem;
+}
+
+/*# sourceMappingURL=find.css.map */

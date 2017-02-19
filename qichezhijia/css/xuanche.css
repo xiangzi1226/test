@@ -1,0 +1,250 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+span {
+  font-family: Microsoft yahei;
+}
+
+i {
+  display: block;
+}
+
+@font-face {
+  font-family: "iconfont";
+  src: url(../font/iconfont.ttf);
+}
+.wrapper1 {
+  width: 100%;
+  height: 20.5rem;
+  overflow-y: auto;
+}
+.wrapper1 .top {
+  width: 100%;
+  text-align: center;
+  height: 1.4rem;
+  border-bottom: 2px solid #e9e9e9;
+  line-height: 1.32rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  background: #fff;
+}
+.wrapper1 .top .borderBottom {
+  position: absolute;
+  top: 1.3rem;
+  left: 4.32rem;
+  width: 1rem;
+  height: 4px;
+  background: #333333;
+}
+.wrapper1 .top .tap {
+  font-size: 0.45rem;
+  color: #333333;
+  float: left;
+}
+.wrapper1 .top .new {
+  margin-left: 4.38rem;
+  margin-right: 1rem;
+}
+.wrapper1 .top .old {
+  color: #999999;
+}
+.wrapper1 .top .bigFic::before {
+  float: right;
+  font-family: 'iconfont';
+  content: '\e686';
+  font-style: normal;
+  font-size: 0.75rem;
+  margin-right: 0.2rem;
+}
+.wrapper1 .bigBox {
+  width: 100%;
+  background: #f0eff5;
+  height: 18rem;
+  position: relative;
+  overflow-x: hidden;
+  overflow-y: auto;
+  margin-top: 1.4rem;
+  z-index: 10;
+}
+.wrapper1 .bigBox .smallBox {
+  width: 24.84rem;
+  height: auto;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.wrapper1 .bigBox .smallBox .box {
+  float: left;
+  width: 12.42rem;
+  height: auto;
+}
+.wrapper1 .bigBox .smallBox .left .navBox {
+  width: 12.42rem;
+  height: 3.3rem;
+  position: relative;
+  overflow: hidden;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav {
+  width: 15.52rem;
+  height: 3.3rem;
+  background: #fff;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont {
+  width: 3.1rem;
+  float: left;
+  text-align: center;
+  height: 3.3rem;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont .minBox {
+  width: 1.3rem;
+  height: 1.3rem;
+  border-radius: 0.3rem;
+  background: skyblue;
+  margin: 0.6rem auto 0.35rem auto;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont .minBox .font {
+  width: 1.3rem;
+  height: 1.3rem;
+  text-align: center;
+  line-height: 1rem;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont .minBox .introduction::before {
+  content: '\e62f';
+  font-family: 'iconfont';
+  font-size: 0.6rem;
+  font-style: normal;
+  color: #fff;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont .minBox .hot::before {
+  content: '\e61c';
+  font-family: 'iconfont';
+  font-size: 0.6rem;
+  font-style: normal;
+  color: #fff;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont .minBox .favorable::before {
+  content: '\e725';
+  font-family: 'iconfont';
+  font-size: 0.6rem;
+  font-style: normal;
+  color: #fff;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont .minBox .collection::before {
+  content: '\e60b';
+  font-family: 'iconfont';
+  font-size: 0.6rem;
+  font-style: normal;
+  color: #fff;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont .minBox .history::before {
+  content: '\e6d5';
+  font-family: 'iconfont';
+  font-size: 0.6rem;
+  font-style: normal;
+  color: #fff;
+}
+.wrapper1 .bigBox .smallBox .left .navBox .nav .navFont .word {
+  font-size: 0.4rem;
+  float: left;
+  margin-left: 0.75rem;
+  color: #555555;
+}
+.wrapper1 .bigBox .smallBox .left .condition {
+  height: 1.5rem;
+  width: 100%;
+  background: #fff;
+  margin-top: 0.3rem;
+}
+.wrapper1 .bigBox .smallBox .left .condition .choose {
+  color: #333333;
+  font-size: 0.46rem;
+  float: left;
+  margin: 0.5rem 0 0 0.4rem;
+}
+.wrapper1 .bigBox .smallBox .left .condition .chexing {
+  color: #ff9000;
+  font-size: 0.28rem;
+  float: right;
+  margin-right: 0.4rem;
+  margin-top: 0.57rem;
+}
+.wrapper1 .bigBox .smallBox .left .condition .xiangyou::before {
+  content: '\e65e';
+  font-family: 'iconfont';
+  font-style: normal;
+  float: right;
+  margin-top: 0.42rem;
+  margin-right: 0.8rem;
+  font-size: 0.7rem;
+}
+.wrapper1 .bigBox .smallBox .left .hotBrand {
+  height: 0.9rem;
+  font-size: 0.4rem;
+  line-height: 0.9rem;
+  color: #333333;
+  padding-left: 0.3rem;
+}
+.wrapper1 .bigBox .smallBox .left .hotBrand .mainCar {
+  font-size: 0.2rem;
+  height: 0.36rem;
+  width: 0.78rem;
+  border: 1px solid #999999;
+  color: #999999;
+  margin-top: 0.26rem;
+}
+.wrapper1 .bigBox .smallBox .left .bigBrand {
+  height: 5.16rem;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+.wrapper1 .bigBox .smallBox .left .bigBrand .Brand {
+  height: 2.58rem;
+  width: 20%;
+  float: left;
+}
+.wrapper1 .bigBox .smallBox .left .bigBrand .Brand .brandTop {
+  width: 1.06rem;
+  height: 0.53rem;
+  margin: 0.57rem auto 0 auto;
+}
+.wrapper1 .bigBox .smallBox .left .bigBrand .Brand .brandBottom {
+  font-size: 0.36rem;
+  color: #565656;
+}
+.wrapper1 .bigBox .smallBox .left .carImg {
+  height: 3.6rem;
+  width: 100%;
+  background: #fff;
+  text-align: center;
+}
+.wrapper1 .bigBox .smallBox .left .carImg .box {
+  width: 33.3%;
+  height: 3.6rem;
+  float: left;
+}
+.wrapper1 .bigBox .smallBox .left .carImg .box .carImage {
+  width: 2.53rem;
+  height: 1.2rem;
+  margin: 1rem auto 0 auto;
+}
+.wrapper1 .bigBox .smallBox .left .carImg .box .carWord {
+  font-size: 0.36rem;
+  color: #666666;
+}
+
+/*# sourceMappingURL=xuanche.css.map */
